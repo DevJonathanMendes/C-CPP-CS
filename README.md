@@ -1,2 +1,3 @@
 # C e C++
-Códs de início de estudos.
+Alguns códigos que eu escrevi quando comecei a estudar.
+(Quem sabe um dia eu revise)
