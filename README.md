@@ -1,3 +1,2 @@
 # C e C++
-Alguns códigos que eu escrevi quando comecei a estudar.
-(Quem sabe um dia eu revise)
+Códigos de quando comecei a estudar.
