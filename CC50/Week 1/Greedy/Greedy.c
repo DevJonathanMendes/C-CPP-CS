@@ -7,7 +7,7 @@ main(void)
 	// CENTAVOS DE TROCO E QUANTIDADE DE MOEDA.
     float a = 0.25;
     float b = 0.10;
-    float c = 0.05;CENTAVOS DE TROCO E QUANTIDADE DE MOEDA.
+    float c = 0.05; // CENTAVOS DE TROCO E QUANTIDADE DE MOEDA.
     float d = 0.01;
     int moedas = 0;
     
