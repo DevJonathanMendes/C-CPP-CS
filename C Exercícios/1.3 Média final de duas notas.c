@@ -22,6 +22,6 @@ main(void)
     // Calcula a média.
     float media = n1 + n2 / 2;
     printf("Media final: %.2f", media);
-    getch(); // Aguarda uma tecla ser precionada para concluir o programa.
+    getch(); // Aguarda uma tecla ser pressionada para concluir o programa.
     return 0;
 }
