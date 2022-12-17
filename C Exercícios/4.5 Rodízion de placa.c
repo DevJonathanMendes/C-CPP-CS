@@ -1,6 +1,6 @@
 /* Exercício 4.5.
  *
- * Codifique a função rodizio(placa), que recebe o número da placa de um veículo e exibe o dia em que ele está no rodízio.
+ * Codifique a função rodízio(placa), que recebe o número da placa de um veículo e exibe o dia em que ele está no rodízio.
  * 
  * Jonathan B. Mendes.
  */
