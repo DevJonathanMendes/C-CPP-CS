@@ -1,4 +1,4 @@
-// Fig: 4.11: Analysis.
+// Fig. 4.11: Analysis.
 // Análise dos resultados do exame.
 
 using System;

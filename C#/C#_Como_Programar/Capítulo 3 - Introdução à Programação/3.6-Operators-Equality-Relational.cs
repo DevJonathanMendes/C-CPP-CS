@@ -1,4 +1,4 @@
-// Fig: 3.19: Operadores de igualdade e operadores relacionais.
+// Fig. 3.19: Operadores de igualdade e operadores relacionais.
 // Usando operadores relacionais e operadores de igualdade.
 
 /*

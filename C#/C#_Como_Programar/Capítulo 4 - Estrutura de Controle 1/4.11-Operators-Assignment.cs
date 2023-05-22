@@ -1,4 +1,4 @@
-// Fig: 4.11: Operadores de atribuição.
+// Fig. 4.11: Operadores de atribuição.
 // Uma forma de abreviação.
 
 using System;

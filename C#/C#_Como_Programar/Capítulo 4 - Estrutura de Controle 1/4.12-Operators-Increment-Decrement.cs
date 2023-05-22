@@ -1,4 +1,4 @@
-// Fig: 4.12: Operadores de incremento e decremento.
+// Fig. 4.12: Operadores de incremento e decremento.
 // Os operadores unários (++ e --) são aplicadas por 1.
 
 using System;
