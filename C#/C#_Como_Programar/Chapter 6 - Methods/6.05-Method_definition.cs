@@ -1,6 +1,15 @@
 // 6.5: Definições de métodos.
 // Fig. 6.3: SquareInt
 
+/* 
+Para declarar um método:
+
+tipo-do-valor-de-retorno nome-do-método(lista-de-parâmetros)
+{
+	declarações e instruções
+}
+*/
+
 using System;
 
 static class Program
