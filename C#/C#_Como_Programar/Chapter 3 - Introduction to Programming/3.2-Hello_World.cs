@@ -10,7 +10,7 @@ Sequências de scape:
 	\": Aspas.
 */
 
-using System;
+using System; // "using" diz que estamos usando tal espaço de nomes
 
 static class Program
 {

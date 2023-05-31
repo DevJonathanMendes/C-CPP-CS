@@ -12,6 +12,6 @@ static class Program
 		{ return y * y; }
 
 		double y = 4.5;
-		Console.WriteLine($"The square of: {y} = {Square((int)y)}");
+		Console.WriteLine($"The square of: {y} = {Square((int)y)}"); // func((int)y) é a conversão.
 	}
 }
