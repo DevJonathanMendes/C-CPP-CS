@@ -4,13 +4,14 @@
 /*
 Sequências de scape:  
 	\n: Nova linha.
-	\t: Tabulção horizontal.
+	\t: Tabulação horizontal.
 	\r: Retorna o cursor.
 	\\: Barra invertida.
 	\": Aspas.
 */
 
-using System; // "using" diz que estamos usando tal espaço de nomes
+// Palavra reservada "using" indica que estamos usando tal espaço de nomes.
+using System; 
 
 static class Program
 {
