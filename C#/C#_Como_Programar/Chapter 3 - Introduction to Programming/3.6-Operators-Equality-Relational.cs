@@ -3,14 +3,14 @@
 
 /*
 Operadores de igualdade:
-    ==: é igual a.
-    !=: é diferente de.
+	==:	é igual a.
+  !=:	é diferente de.
 
 Operadores relacionais:
-    >: É maior que.
-    <: É menor que.
-    >=: É maior ou menor a.
-    <=: É menor ou igual a.
+	>:	É maior que.
+	<:	É menor que.
+	>=:	É maior ou menor a.
+	<=:	É menor ou igual a.
 */
 
 using System;
