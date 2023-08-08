@@ -6,6 +6,12 @@
 // 11.03: Exemplo.
 // Exemplo simples de tratamento de exceções.
 
+// 11.04: Hierarquia de exceções do .NET.
+// 	A classe Exception (de System) é a base da hierarquia de exceções da plataforma .NET.
+// Duas classes derivadas importantes: ApplicationException e SystemException.
+// 	A vatangem de usar hierarquia é que o manipulador catch pode capturar um tipo
+// específico ou pode usar um tipo de classe base para capturar exceções relacionadas. 
+
 using System;
 
 static class Program
