@@ -1,6 +1,17 @@
 // Fig. 3.1: Hello, world!
 // Primeiro programa.
 
+// Palavra reservada "using" indica que estamos usando tal espaço de nomes.
+using System;
+
+static class Program
+{
+	static void Main(string[] args)
+	{
+		Console.WriteLine("Hello, world!\nAll are welcome!");
+	}
+}
+
 /*
 Sequências de scape:  
 	\n: Nova linha.
@@ -8,9 +19,7 @@ Sequências de scape:
 	\r: Retorna o cursor.
 	\\: Barra invertida.
 	\": Aspas.
-*/
 
-/*
 Formatos Numéricos:
 "C": Formata um número como uma moeda.
 "D": Formata um número como um inteiro decimal.
@@ -35,14 +44,3 @@ Outros formatos:
 "s": Formato um valor de dados e hora como uma string no formato padrão ISO 8601.
 "0.00": Formata um número com exatamente duas vezes.
 */
-
-// Palavra reservada "using" indica que estamos usando tal espaço de nomes.
-using System; 
-
-static class Program
-{
-	static void Main(string[] args)
-	{
-		Console.WriteLine("Hello, world!\nAll are welcome!");
-	}
-}
