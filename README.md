@@ -13,4 +13,10 @@ Um resumo com códigos do livro.\
 
 ## Sumário
 
-- 03 - Introdução à Programação com **C#**
+- 3 [Introdução à Programação com **C#**](./03/03.md)
+  - 3.1 [Introdução](./03/03.md/#31-introdução)
+  - 3.2 [Programa Simples](./03/03.md/#32-programa-simples-imprimindo-uma-linha-de-texto): Imprimindo uma linha de texto
+  - 3.3 [Outro Programa Simples](./03/03.md/#33-outro-programa-simples-somando-inteiros): Somando números
+  - 3.4 [Conceitos de Memória](./03/03.md/#34-conceitos-de-memória)
+  - 3.5 [Aritmética](./03/03.md/#35-aritmética)
+  - 3.6 [Tomada de Decisão](./03/03.md/#36-tomada-de-decisão-operadores-de-igualdade-e-relacionais): Operadores de igualdade e relacionais
