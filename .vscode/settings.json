@@ -1,0 +1,15 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	"files.trimFinalNewlines": true,
+	"[csharp]": {
+		"files.encoding": "utf8",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"editor.defaultFormatter": "ms-dotnettools.csharp",
+	},
+}

@@ -1,15 +1,15 @@
 // 12.06: GroupBox e Panel.
 // Organizam componentes em uma GUI.
 
-// Principal diferença entre as classes: 
-// GroupBox podem exibir uma legenda. 
+// Principal diferença entre as classes:
+// GroupBox podem exibir uma legenda.
 // Panels podem ter barras de rolagem.
 
-// Algumas propriedades comuns. 
+// Algumas propriedades comuns.
 
 // GroupBox
 // Controls: Os controles que contém.
-// Text: O texto exibido na parte superior (legenda). 
+// Text: O texto exibido na parte superior (legenda).
 
 
 // Panel
