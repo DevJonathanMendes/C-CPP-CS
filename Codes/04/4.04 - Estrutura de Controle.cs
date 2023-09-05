@@ -3,7 +3,7 @@
 
 using System;
 
-static class Program
+static class MyForm
 {
 	static void Main(string[] args)
 	{
