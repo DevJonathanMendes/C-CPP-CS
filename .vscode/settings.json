@@ -17,5 +17,16 @@
 		"editor.insertSpaces": true,
 		"files.insertFinalNewline": true,
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one",
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		},
+		"cSpell.fixSpellingWithRenameProvider": true,
+		"cSpell.advanced.feature.useReferenceProviderWithRename": true,
+		"cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
 	},
 }
