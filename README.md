@@ -12,5 +12,5 @@ O resumo é feito tentando preservar o conteúdo original (cortando frases entre
 
 ## Sumário
 
-- 3 [Introdução à Programação com **C#**](./Codes/03/03.md)
+- 3 [Introdução à Programação com C#](./Codes/03/03.md)
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
