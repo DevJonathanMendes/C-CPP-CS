@@ -6,12 +6,12 @@ using System.Drawing;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-public partial class MyForm : Form
+public partial class SimpleEventExample : Form
 {
 	#region Windows Form Designer generated code
 	private void InitializeComponent()
 	{
-		this.Click += new EventHandler(this.MyForm_Click);
+		this.Click += new EventHandler(this.SimpleEventExample_Click);
 
 		this.components = new Container();
 		this.AutoScaleMode = AutoScaleMode.Font;
@@ -20,17 +20,17 @@ public partial class MyForm : Form
 	}
 	#endregion
 
-	private void MyForm_Click(object? sender, EventArgs e)
+	private void SimpleEventExample_Click(object? sender, EventArgs e)
 	{
 		MessageBox.Show("Form was pressed");
 	}
 }
 
-partial class MyForm
+partial class SimpleEventExample
 {
 	private IContainer? components = null;
 
-	public MyForm()
+	public SimpleEventExample()
 	{ InitializeComponent(); }
 
 	protected override void Dispose(bool disposing)
@@ -48,6 +48,6 @@ static class Program
 	static void Main()
 	{
 		ApplicationConfiguration.Initialize();
-		Application.Run(new MyForm());
+		Application.Run(new SimpleEventExample());
 	}
 }
