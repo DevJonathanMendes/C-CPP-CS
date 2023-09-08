@@ -1,4 +1,4 @@
-// Fig. 12.32: KeyDemos.cs
+// Fig. 12.32: KeyDemo.cs
 // Exibindo informações sobre a tecla pressionada pelo usuário.
 
 using System;
