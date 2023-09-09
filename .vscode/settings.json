@@ -1,32 +1,32 @@
 {
-	"editor.tabSize": 2,
-	"editor.insertSpaces": false,
-	"editor.trimAutoWhitespace": true,
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"files.trimTrailingWhitespace": true,
-	"files.trimFinalNewlines": true,
-	"files.encoding": "utf8",
-	"files.eol": "\r\n",
 	"[csharp]": {
-		"files.insertFinalNewline": true,
 		"editor.defaultFormatter": "ms-dotnettools.csharp",
-		"editor.maxTokenizationLineLength": 2500
+		"editor.maxTokenizationLineLength": 2500,
+		"files.insertFinalNewline": true
 	},
 	"[markdown]": {
-		"editor.insertSpaces": true,
-		"files.insertFinalNewline": true,
+		"cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+		"cSpell.advanced.feature.useReferenceProviderWithRename": true,
+		"cSpell.fixSpellingWithRenameProvider": true,
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one",
+		"editor.insertSpaces": true,
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"other": "on",
+			"strings": "on"
+		},
 		"editor.unicodeHighlight.ambiguousCharacters": false,
 		"editor.unicodeHighlight.invisibleCharacters": false,
 		"editor.wordWrap": "on",
-		"editor.quickSuggestions": {
-			"comments": "on",
-			"strings": "on",
-			"other": "on"
-		},
-		"cSpell.fixSpellingWithRenameProvider": true,
-		"cSpell.advanced.feature.useReferenceProviderWithRename": true,
-		"cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
+		"files.insertFinalNewline": true
 	},
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.trimAutoWhitespace": true,
+	"files.encoding": "utf8",
+	"files.eol": "\r\n",
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true
 }
