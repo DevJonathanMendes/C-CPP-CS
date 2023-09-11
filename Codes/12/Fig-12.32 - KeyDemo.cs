@@ -17,17 +17,17 @@ partial class KeyDemo : Form
 		this.charLabel = new Label();
 		this.keyInfoLabel = new Label();
 
-		// charLabel
+		// charLabel.
 		this.charLabel.Name = "charLabel";
 		this.charLabel.AutoSize = true;
 		this.charLabel.Location = new Point(5, 5);
 
-		// keyInfoLabel
+		// keyInfoLabel.
 		this.keyInfoLabel.Name = "keyInfoLabel";
 		this.keyInfoLabel.AutoSize = true;
 		this.keyInfoLabel.Location = new Point(5, 25);
 
-		// KeyDemo
+		// KeyDemo.
 		this.KeyPress += new KeyPressEventHandler(KeyDemo_KeyPress);
 		this.KeyDown += new KeyEventHandler(KeyDemo_KeyDown);
 		this.KeyUp += new KeyEventHandler(KeyDemo_KeyUp);

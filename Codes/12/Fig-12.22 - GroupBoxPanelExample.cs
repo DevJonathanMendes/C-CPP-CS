@@ -29,7 +29,7 @@ partial class GroupBoxPanelExample : Form
 		this.mainPanel = new Panel();
 		this.SuspendLayout();
 
-		// GroupBox
+		// GroupBox.
 		this.mainGroupBox.Location = new System.Drawing.Point(12, 12);
 		this.mainGroupBox.Name = "mainGroupBox";
 		this.mainGroupBox.Size = new System.Drawing.Size(200, 100);
@@ -37,21 +37,21 @@ partial class GroupBoxPanelExample : Form
 		this.mainGroupBox.Controls.Add(this.hiButton);
 		this.mainGroupBox.Controls.Add(this.byeButton);
 
-		// hiButton
+		// hiButton.
 		this.hiButton.Location = new System.Drawing.Point(10, 30);
 		this.hiButton.Name = "hiButton";
 		this.hiButton.Size = new System.Drawing.Size(80, 30);
 		this.hiButton.Text = "Hi";
 		this.hiButton.Click += new System.EventHandler(this.hiButton_Click);
 
-		// byeButton
+		// byeButton.
 		this.byeButton.Location = new System.Drawing.Point(100, 30);
 		this.byeButton.Name = "byeButton";
 		this.byeButton.Size = new System.Drawing.Size(80, 30);
 		this.byeButton.Text = "Bye";
 		this.byeButton.Click += new System.EventHandler(this.byeButton_Click);
 
-		// messagePanel
+		// messagePanel.
 		this.mainPanel.Location = new System.Drawing.Point(12, 120);
 		this.mainPanel.Name = "panel";
 		this.mainPanel.Size = new System.Drawing.Size(200, 100);
@@ -60,27 +60,27 @@ partial class GroupBoxPanelExample : Form
 		this.mainPanel.Controls.Add(this.leftButton);
 		this.mainPanel.Controls.Add(this.rightButton);
 
-		// leftButton
+		// leftButton.
 		this.leftButton.Location = new System.Drawing.Point(10, 30);
 		this.leftButton.Name = "leftButton";
 		this.leftButton.Size = new System.Drawing.Size(80, 30);
 		this.leftButton.Text = "Far Left";
 		this.leftButton.Click += new System.EventHandler(this.leftButton_Click);
 
-		// rightButton
+		// rightButton.
 		this.rightButton.Location = new System.Drawing.Point(200, 30);
 		this.rightButton.Name = "rightButton";
 		this.rightButton.Size = new System.Drawing.Size(80, 30);
 		this.rightButton.Text = "Far Right";
 		this.rightButton.Click += new System.EventHandler(this.rightButton_Click);
 
-		// messageLabel
+		// messageLabel.
 		this.messageLabel.Location = new System.Drawing.Point(12, 230);
 		this.messageLabel.Name = "messageLabel";
 		this.messageLabel.Size = new System.Drawing.Size(200, 20);
 		this.messageLabel.TextAlign = ContentAlignment.MiddleCenter;
 
-		// GroupBoxPanelExample
+		// GroupBoxPanelExample.
 		this.AutoScaleMode = AutoScaleMode.Font;
 		this.FormBorderStyle = FormBorderStyle.FixedDialog;
 		this.ClientSize = new System.Drawing.Size(224, 262);

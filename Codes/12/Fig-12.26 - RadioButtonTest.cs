@@ -48,19 +48,19 @@ partial class RadioButtonTest : Form
 		this.groupBox1 = new GroupBox();
 		this.groupBox2 = new GroupBox();
 
-		// displayLabel
+		// displayLabel.
 		this.displayLabel.Name = "displayLabel";
 		this.displayLabel.Text = "Choose the type of MessageBox you would like to display!";
 		this.displayLabel.AutoSize = true;
 		this.displayLabel.Location = new Point(10, 10);
 
-		// displayButton
+		// displayButton.
 		this.displayButton.Name = "displayButton";
 		this.displayButton.Text = "Display";
 		this.displayButton.Location = new Point(220, 160);
 		this.displayButton.Click += new EventHandler(displayButton_Click);
 
-		// GroupBox1
+		// GroupBox1.
 		this.groupBox1.Name = "ButtonType";
 		this.groupBox1.Text = "Button Type";
 		this.groupBox1.AutoSize = true;
@@ -74,52 +74,51 @@ partial class RadioButtonTest : Form
 			this.retryCancelButton
 		});
 
-		// okButton
+		// okButton.
 		this.okButton.Name = "okButton";
 		this.okButton.Text = "OK";
 		this.okButton.AutoSize = true;
 		this.okButton.Location = new Point(10, 15);
 		this.okButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// okCancelButton
+		// okCancelButton.
 		this.okCancelButton.Name = "okCancelButton";
 		this.okCancelButton.Text = "OKCancel";
 		this.okCancelButton.AutoSize = true;
 		this.okCancelButton.Location = new Point(10, 35);
 		this.okCancelButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// AbortRetryIgnore
+		// AbortRetryIgnore.
 		this.abortRetryIgnoreButton.Name = "AbortRetryIgnore";
 		this.abortRetryIgnoreButton.Text = "AbortRetryIgnore";
 		this.abortRetryIgnoreButton.AutoSize = true;
 		this.abortRetryIgnoreButton.Location = new Point(10, 55);
 		this.abortRetryIgnoreButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// okCancelButton
+		// okCancelButton.
 		this.yesNoCancelButton.Name = "yesNoCancelButton";
 		this.yesNoCancelButton.Text = "YesNoCancel";
 		this.yesNoCancelButton.AutoSize = true;
 		this.yesNoCancelButton.Location = new Point(10, 75);
 		this.yesNoCancelButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// yesNoButton
+		// yesNoButton.
 		this.yesNoButton.Name = "yesNoButton";
 		this.yesNoButton.Text = "YesNo";
 		this.yesNoButton.AutoSize = true;
 		this.yesNoButton.Location = new Point(10, 95);
 		this.yesNoButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// retryCancelButton
+		// retryCancelButton.
 		this.retryCancelButton.Name = "retryCancelButton";
 		this.retryCancelButton.Text = "RetryCancel";
 		this.retryCancelButton.AutoSize = true;
 		this.retryCancelButton.Location = new Point(10, 115);
 		this.retryCancelButton.CheckedChanged += new EventHandler(buttonType_CheckedChanged);
 
-		// GroupBox2
+		// GroupBox2.
 		this.groupBox2.Name = "Icon";
 		this.groupBox2.Text = "Icon";
-		// this.groupBox2.Size = new Size(200, 100);
 		this.groupBox2.AutoSize = true;
 		this.groupBox2.Location = new Point(220, 30);
 		this.groupBox2.Controls.AddRange(new Control[] {
@@ -129,37 +128,36 @@ partial class RadioButtonTest : Form
 			this.exclamationButton,
 		});
 
-		// errorButton
+		// errorButton.
 		this.errorButton.Name = "errorButton";
 		this.errorButton.Text = "Error";
 		this.errorButton.AutoSize = true;
 		this.errorButton.Location = new Point(10, 15);
 		this.errorButton.CheckedChanged += new EventHandler(iconType_CheckedChanged);
 
-		// exclamationButton
+		// exclamationButton.
 		this.exclamationButton.Name = "exclamationButton";
 		this.exclamationButton.Text = "Exclamation";
 		this.exclamationButton.AutoSize = true;
 		this.exclamationButton.Location = new Point(10, 35);
 		this.exclamationButton.CheckedChanged += new EventHandler(iconType_CheckedChanged);
 
-		// informationButton
+		// informationButton.
 		this.informationButton.Name = "informationButton";
 		this.informationButton.Text = "Information";
 		this.informationButton.AutoSize = true;
 		this.informationButton.Location = new Point(10, 55);
 		this.informationButton.CheckedChanged += new EventHandler(iconType_CheckedChanged);
 
-		// questionButton
+		// questionButton.
 		this.questionButton.Name = "questionButton";
 		this.questionButton.Text = "Question";
 		this.questionButton.AutoSize = true;
 		this.questionButton.Location = new Point(10, 75);
 		this.questionButton.CheckedChanged += new EventHandler(iconType_CheckedChanged);
 
-		// RadioButtonTest
+		// RadioButtonTest.
 		this.AutoScaleMode = AutoScaleMode.Font;
-		//this.ClientSize = new Size(250, 150);
 		this.AutoSize = true;
 		this.Controls.AddRange(new Control[]{
 			this.displayLabel,

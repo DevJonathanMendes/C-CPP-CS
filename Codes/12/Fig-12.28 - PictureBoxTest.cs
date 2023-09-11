@@ -20,20 +20,20 @@ partial class PictureBoxTest : Form
 		this.promptLabel = new Label();
 		this.imagePictureBox = new PictureBox();
 
-		// promptLabel
+		// promptLabel.
 		this.promptLabel.Name = "promptLabel";
 		this.promptLabel.Text = "Click On PictureBox to View Images";
 		this.promptLabel.AutoSize = true;
 		this.promptLabel.Location = new Point(5, 5);
 
-		// imagePictureBox
+		// imagePictureBox.
 		this.imagePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
 		this.imagePictureBox.Location = new Point(5, 35);
 		this.imagePictureBox.Size = new Size(200, 200);
 		this.imagePictureBox.BorderStyle = BorderStyle.Fixed3D;
 		this.imagePictureBox.Click += new EventHandler(imagePictureBox_Click);
 
-		// PictureBoxTest
+		// PictureBoxTest.
 		this.AutoSize = true;
 		this.Controls.AddRange(new Control[]{
 			this.promptLabel,

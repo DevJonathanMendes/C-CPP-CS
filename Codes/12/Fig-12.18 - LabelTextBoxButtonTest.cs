@@ -27,7 +27,7 @@ partial class LabelTextBoxButtonTest : Form
 		this.displayPasswordButton.Text = "Show Me";
 		this.displayPasswordButton.Click += new EventHandler(this.displayPasswordButton_Click);
 
-		// inputPasswordTextBox
+		// inputPasswordTextBox.
 		this.inputPasswordTextBox.Location = new Point(16, 16);
 		this.inputPasswordTextBox.Name = "inputPasswordTextBox";
 		this.inputPasswordTextBox.PasswordChar = '*';
@@ -35,14 +35,14 @@ partial class LabelTextBoxButtonTest : Form
 		this.inputPasswordTextBox.TabIndex = 0;
 		this.inputPasswordTextBox.Text = "";
 
-		// displayPasswordLabel
+		// displayPasswordLabel.
 		this.displayPasswordLabel.BorderStyle = BorderStyle.Fixed3D;
 		this.displayPasswordLabel.Location = new Point(16, 48);
 		this.displayPasswordLabel.Name = "displayPasswordLabel";
 		this.displayPasswordLabel.Size = new Size(264, 23);
 		this.displayPasswordLabel.TabIndex = 2;
 
-		// LabelTextBoxButtonTest
+		// LabelTextBoxButtonTest.
 		this.AutoScaleBaseSize = new Size(5, 13);
 		this.ClientSize = new Size(292, 133);
 		this.Controls.AddRange(new Control[]{

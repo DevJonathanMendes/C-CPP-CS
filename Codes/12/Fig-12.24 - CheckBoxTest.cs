@@ -20,24 +20,24 @@ partial class CheckBoxTest : Form
 		this.italicCheckBox = new CheckBox();
 		this.outputLabel = new Label();
 
-		// outputLabel
+		// outputLabel.
 		this.outputLabel.Text = "Watch the font style change";
 		this.outputLabel.Location = new Point(10, 20);
 		this.outputLabel.AutoSize = true;
 
-		// boldCheckBox
+		// boldCheckBox.
 		this.boldCheckBox.Text = "Bold";
 		this.boldCheckBox.AutoSize = true;
 		this.boldCheckBox.Location = new Point(10, 40);
 		this.boldCheckBox.Click += new EventHandler(this.boldCheckBox_CheckedChanged);
 
-		// italicCheckBox
+		// italicCheckBox.
 		this.italicCheckBox.Text = "Italic";
 		this.italicCheckBox.AutoSize = true;
 		this.italicCheckBox.Location = new Point(70, 40);
 		this.italicCheckBox.Click += new EventHandler(this.italicCheckBox_CheckedChanged);
 
-		// CheckBoxTest
+		// CheckBoxTest.
 		this.AutoScaleMode = AutoScaleMode.Font;
 		this.ClientSize = new System.Drawing.Size(250, 150);
 		this.Controls.AddRange(new Control[]{

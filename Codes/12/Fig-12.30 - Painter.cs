@@ -13,7 +13,7 @@ partial class Painter : Form
 	#region Windows Form Designer generated code
 	private void InitializeComponent()
 	{
-		// Painter
+		// Painter.
 		this.MouseDown += new MouseEventHandler(Painter_MouseDown);
 		this.MouseUp += new MouseEventHandler(Painter_MouseUp);
 		this.MouseMove += new MouseEventHandler(Painter_MouseMove);
