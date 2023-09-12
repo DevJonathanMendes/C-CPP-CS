@@ -15,3 +15,4 @@ O resumo é feito tentando preservar o conteúdo original (cortando frases entre
 - 3 [Introdução à Programação com C#](./Codes/03/03.md)
 - 4 [Estruturas de Controle](./Codes/04/04.md): Parte 1
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
+- 13 [Conceitos de Interface com o Usuário Gráfica](./Codes/13/13.md): Parte 2
