@@ -1,29 +1,28 @@
-// Fig. 00.00: .cs
-// .
+// Fig. 00.00: Form1.cs
+// Descrição.
 
 using System;
-using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 
 partial class Form1 : Form
 {
-	#region Windows Form Designer generated code
 	private void InitializeComponent()
 	{
 		// Form1
-		this.AutoScaleMode = AutoScaleMode.Font;
-		this.ClientSize = new System.Drawing.Size(224, 262);
+		this.Controls.AddRange(new Control[]{
+
+		});
 		this.Name = "Form1";
 		this.Text = "Form1";
+		this.AutoSize = true;
 		this.ResumeLayout(false);
 	}
-	#endregion
 }
 
 partial class Form1
 {
-	private Container components = null;
+	private Container? components = null;
 
 	public Form1()
 	{ InitializeComponent(); }
