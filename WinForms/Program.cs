@@ -2,6 +2,7 @@
 // Descrição.
 
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 
@@ -9,7 +10,7 @@ partial class Form1 : Form
 {
 	private void InitializeComponent()
 	{
-		// Form1
+		// Form1.
 		this.Controls.AddRange(new Control[]{
 
 		});
