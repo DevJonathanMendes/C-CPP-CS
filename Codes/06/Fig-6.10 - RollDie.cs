@@ -72,10 +72,8 @@ partial class RollDie : Form
 
 	protected void rollButton_Click(object? sender, EventArgs e)
 	{
-		DisplayDie(dieLabel1);
-		DisplayDie(dieLabel2);
-		DisplayDie(dieLabel3);
-		DisplayDie(dieLabel4);
+		DisplayDie(dieLabel1); DisplayDie(dieLabel2);
+		DisplayDie(dieLabel3); DisplayDie(dieLabel4);
 	}
 
 	public void DisplayDie(Label dieLabel)

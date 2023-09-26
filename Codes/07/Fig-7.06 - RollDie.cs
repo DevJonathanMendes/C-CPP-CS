@@ -1,34 +1,27 @@
-// Fig. 6.11: RollDie2.cs
-//lançamento de 12 dados com diagrama de frequência.
+// Fig. 7.6: RollDie.cs
+// Lançamento de 12 dados.
 
 using System;
+using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
-using System.IO;
 
-partial class RollDie2 : Form
+partial class RollDie : Form
 {
 	private Button rollButton;
 
 	private RichTextBox displayTextBox;
 
-	private Label dieLabel1;
-	private Label dieLabel2;
-	private Label dieLabel3;
-	private Label dieLabel4;
-	private Label dieLabel5;
-	private Label dieLabel6;
-	private Label dieLabel7;
-	private Label dieLabel8;
-	private Label dieLabel9;
-	private Label dieLabel10;
-	private Label dieLabel11;
-	private Label dieLabel12;
+	private Label dieLabel1; private Label dieLabel2;
+	private Label dieLabel3; private Label dieLabel4;
+	private Label dieLabel5; private Label dieLabel6;
+	private Label dieLabel7; private Label dieLabel8;
+	private Label dieLabel9; private Label dieLabel10;
+	private Label dieLabel11; private Label dieLabel12;
 
-	private Random randomNumber = new Random();
-
-	private int ones, twos, threes, fours, fives, sixes;
+	Random randomNumber = new Random();
+	int[] frequency = new int[7];
 
 	private void InitializeComponent()
 	{
@@ -144,8 +137,8 @@ partial class RollDie2 : Form
 			this.dieLabel9, this.dieLabel10,
 			this.dieLabel11, this.dieLabel12,
 		});
-		this.Name = "RollDie2";
-		this.Text = "RollDie2";
+		this.Name = "RollDie";
+		this.Text = "RollDie";
 		this.AutoSize = true;
 		this.ResumeLayout(false);
 	}
@@ -159,21 +152,20 @@ partial class RollDie2 : Form
 		DisplayDie(dieLabel9); DisplayDie(dieLabel10);
 		DisplayDie(dieLabel11); DisplayDie(dieLabel12);
 
-		double total = ones + twos + threes + fours + fives + sixes;
+		double total = 0;
 
-		displayTextBox.Text = "Face\t\tFrequency\tPercent\n1\t\t" +
-			ones + "\t\t" +
-			String.Format("{0:F2}", ones / total * 100) +
-			"%\n2\t\t" + twos + "\t\t" +
-			String.Format("{0:F2}", twos / total * 100) +
-			"%\n3\t\t" + threes + "\t\t" +
-			String.Format("{0:F2}", threes / total * 100) +
-			"%\n4\t\t" + fours + "\t\t" +
-			String.Format("{0:F2}", fours / total * 100) +
-			"%\n5\t\t" + fives + "\t\t" +
-			String.Format("{0:F2}", fives / total * 100) +
-			"%\n6\t\t" + sixes + "\t\t" +
-			String.Format("{0:F2}", sixes / total * 100) + "%";
+		for (int i = 1; i < 7; i++)
+			total += frequency[i];
+
+		displayTextBox.Text = "Face\tFrequency\tPercent\n";
+
+		for (int x = 1; x < frequency.Length; x++)
+		{
+			displayTextBox.Text +=
+				x + "\t" + frequency[x] + "\t\t" +
+				String.Format("{0:N}", frequency[x] / total * 100) +
+				"%\n";
+		}
 	}
 
 	public void DisplayDie(Label dieLabel)
@@ -187,23 +179,15 @@ partial class RollDie2 : Form
 			"\\images\\die" + face + ".gif"
 		); */
 
-		switch (face)
-		{
-			case 1: ones++; break;
-			case 2: twos++; break;
-			case 3: threes++; break;
-			case 4: fours++; break;
-			case 5: fives++; break;
-			case 6: sixes++; break;
-		}
+		frequency[face]++;
 	}
 }
 
-partial class RollDie2
+partial class RollDie
 {
 	private Container? components = null;
 
-	public RollDie2()
+	public RollDie()
 	{ InitializeComponent(); }
 
 	protected override void Dispose(bool disposing)
@@ -221,6 +205,6 @@ static class Program
 	static void Main()
 	{
 		ApplicationConfiguration.Initialize();
-		Application.Run(new RollDie2());
+		Application.Run(new RollDie());
 	}
 }
