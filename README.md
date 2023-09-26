@@ -8,7 +8,10 @@ O resumo é feito tentando preservar o conteúdo original (cortando frases entre
 
 ## Sinopse
 
-*Os consagrados autores explicam detalhadamente como usar a linguagem de programação C#, a principal linguagem na iniciativa .NET da Microsoft para programação de propósito geral e para desenvolver aplicativos multicamadas, cliente-servidor, com uso intensivo de banco de dados, baseados na Internet e na Web.*
+*Os consagrados autores explicam detalhadamente como usar a linguagem de programação C#,
+a principal linguagem na iniciativa .NET da Microsoft para programação de propósito geral
+e para desenvolver aplicativos multicamadas, cliente-servidor, com uso intensivo de
+banco de dados, baseados na Internet e na Web.*
 
 ## Sumário
 
