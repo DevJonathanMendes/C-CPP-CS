@@ -23,3 +23,4 @@ banco de dados, baseados na Internet e na Web.*
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
 - 13 [Conceitos de Interface com o Usuário Gráfica](./Codes/13/13.md): Parte 2
 - 14 [Múltiplas Linhas de Execução (Multithreading)](./Codes/14/14.md)
+- 15 [Strings, Caracteres e Expressões Regulares](./Codes/15/15.md)
