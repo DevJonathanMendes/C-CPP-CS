@@ -6,8 +6,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 
-// Cole o programa da figura 13.38 (VisualInheritance.cs) aqui.
-// Ainda não está sendo usado namespaces.
+// Cole classe VisualInheritance (Fig-13.38 - VisualInheritance.cs) aqui.
 
 partial class VisualInheritanceTest : VisualInheritance
 {
