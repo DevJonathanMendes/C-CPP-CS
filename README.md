@@ -21,6 +21,7 @@ banco de dados, baseados na Internet e na Web.*
 - 06 [Métodos](./Codes/06/06.md)
 - 07 [Arrays](./Codes/07/07.md)
 - 08 [Programação Baseada em Objetos](./Codes/08/08.md)
+- 09 [Programação Orientada a Objetos](./Codes/09/09.md): Herança
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
 - 13 [Conceitos de Interface com o Usuário Gráfica](./Codes/13/13.md): Parte 2
 - 14 [Múltiplas Linhas de Execução (Multithreading)](./Codes/14/14.md)
