@@ -25,17 +25,17 @@ public class Circle4 : Point3
 	}
 
 	public double Diameter()
-	{ return radius * 2; }
+	{ return Radius * 2; }
 
 	public double Circumference()
 	{ return Math.PI * Diameter(); }
 
-	public double Area()
-	{ return Math.PI * Math.Pow(radius, 2); }
+	public virtual double Area()
+	{ return Math.PI * Math.Pow(Radius, 2); }
 
 	public override string ToString()
 	{
 		// Usa a referência base para retornar a representação de string Point.
-		return "Center = " + base.ToString() + "; Radius = " + radius;
+		return "Center = " + base.ToString() + "; Radius = " + Radius;
 	}
 }
