@@ -4,7 +4,7 @@ Um resumo transcrito do livro, com códigos e sem modificar o conteúdo.\
 *Necessário conhecimento prévio.*
 
 No livro, as palavras destacadas em *negrito* e **bold** são convertida aqui para **bold**.\
-O resumo é feito tentando preservar o conteúdo original (cortando frases entre virgulas).
+O resumo é feito tentando preservar o conteúdo original.
 
 ## Sinopse
 
@@ -22,6 +22,7 @@ banco de dados, baseados na Internet e na Web.*
 - 07 [Arrays](./Codes/07/07.md)
 - 08 [Programação Baseada em Objetos](./Codes/08/08.md)
 - 09 [Programação Orientada a Objetos](./Codes/09/09.md): Herança
+- 10 [Programação Orientada a Objetos](./Codes/10/10.md): Polimorfismo
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
 - 13 [Conceitos de Interface com o Usuário Gráfica](./Codes/13/13.md): Parte 2
 - 14 [Múltiplas Linhas de Execução (Multithreading)](./Codes/14/14.md)

@@ -1,34 +1,20 @@
-// Fig. 9.6: Circle.cs
-// A classe Circle contém um par de coordenadas x, y e um raio.
+// Fig. 10.2: Circle.cs
+// A classe Circle que herda da classe Point.
 
 using System;
 
-public class Circle
+// Cole a classe Point (Fig-10.1 - Point.cs) aqui.
+
+public class Circle : Point
 {
-	private int x, y;
 	private double radius;
 
 	public Circle()
 	{ }
 
 	public Circle(int xValue, int yValue, double radiusValue)
-	{
-		x = xValue;
-		y = yValue;
-		Radius = radiusValue;
-	}
-
-	public int X
-	{
-		get { return x; }
-		set { x = value; }
-	}
-
-	public int Y
-	{
-		get { return y; }
-		set { y = value; }
-	}
+	: base(xValue, yValue)
+	{ Radius = radiusValue; }
 
 	public double Radius
 	{
@@ -47,6 +33,6 @@ public class Circle
 
 	public override string ToString()
 	{
-		return "Center = [" + x + ", " + y + "]" + "; Radius = " + Radius;
+		return "Center = " + base.ToString() + "; Radius = " + Radius;
 	}
 }
