@@ -16,7 +16,7 @@ public class Cylinder : Circle4
 
 	public Cylinder(int xValue, int yValue, double radiusValue,
 	double heightValue) : base(xValue, yValue, radiusValue)
-	{ height = heightValue; }
+	{ Height = heightValue; }
 
 	public double Height
 	{

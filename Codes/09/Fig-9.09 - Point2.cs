@@ -29,5 +29,5 @@ public class Point2
 	}
 
 	public override string ToString()
-	{ return "[" + x + ", " + y + "]"; }
+	{ return "[" + X + ", " + Y + "]"; }
 }
