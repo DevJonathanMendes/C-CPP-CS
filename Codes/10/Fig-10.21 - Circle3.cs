@@ -1,12 +1,13 @@
-// Fig. 9.10: Circle3.cs
-// A classe Circle3 que herda da classe Point2.
+// Fig. 10.21: Circle3.cs
+// Circle3 herda da classe POint3 e sobrepõe membros importantes.
 
 using System;
 
-// Cole a classe Point2 (Fig-9.09 - Point2.cs) aqui.
+// Cole a interface IShape (Fig-10.19 - IShape.cs) aqui.
 
-// A definição da classe Circle3 herda de Point2.
-public class Circle3 : Point2
+// Cole a classe Point3 (Fig-10.20 - Point3.cs) aqui.
+
+public class Circle3 : Point3
 {
 	private double radius;
 
@@ -14,9 +15,8 @@ public class Circle3 : Point2
 	{ }
 
 	public Circle3(int xValue, int yValue, double radiusValue)
+		: base(xValue, yValue)
 	{
-		x = xValue;
-		y = yValue;
 		Radius = radiusValue;
 	}
 
@@ -32,11 +32,15 @@ public class Circle3 : Point2
 	public double Circumference()
 	{ return Math.PI * Diameter(); }
 
-	public double Area()
+	public override double Area()
 	{ return Math.PI * Math.Pow(Radius, 2); }
 
 	public override string ToString()
 	{
-		return "Center = [" + x + ", " + y + "]" + "; Radius = " + Radius;
+		return "Center = " + base.ToString() +
+			"; Radius = " + Radius;
 	}
+
+	public override string Name
+	{ get { return "Circle3"; } }
 }
