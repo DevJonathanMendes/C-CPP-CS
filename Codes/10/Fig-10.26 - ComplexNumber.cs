@@ -1,22 +1,19 @@
-// 10.11: Sobrecarga de operadores.
-// As manipulações nos objetos de uma classe são realizados por meio
-// do envio de mensagens (Chamada a métodos) para objetos.
-
-// O C# permite que o programador sobrecarregue a maioria dos operadores
-// para torná-los sensíveis ao contexto em que estão sendo usados.
+// Fig. 10.26: ComplexNumber.cs
+// Classe que sobrecarrega operadores para soma, subtração e multiplicação de número complexos.
 
 using System;
 
 public class ComplexNumber
 {
-	private int real, imaginary;
+	private int real;
+	private int imaginary;
 
 	public ComplexNumber() { }
 
-	public ComplexNumber(int num1, int num2)
+	public ComplexNumber(int a, int b)
 	{
-		Real = num1;
-		Imaginary = num2;
+		Real = a;
+		Imaginary = b;
 	}
 
 	public int Real
@@ -33,7 +30,9 @@ public class ComplexNumber
 
 	public override string ToString()
 	{
-		return $"{Real + (imaginary < 0 ? (imaginary * -1) : imaginary)}";
+		return "{" + real +
+			(imaginary < 0 ? " - " + (imaginary * -1) :
+			" + " + imaginary) + "i )";
 	}
 
 	// Sobrecarga o operador soma.
@@ -63,29 +62,4 @@ public class ComplexNumber
 	// Fornece alternativa para o operador sobrecarregado * para a multiplicação.
 	public static ComplexNumber Multiply(ComplexNumber x, ComplexNumber y)
 	{ return x * y; }
-
-
-}
-
-static class Program
-{
-	static void Main(string[] args)
-	{
-		ComplexNumber x = new ComplexNumber();
-		ComplexNumber y = new ComplexNumber();
-
-		void ReadNumber(ComplexNumber num, string name)
-		{
-			Console.Write($"Real({name}): ");
-			num.Real = Int32.Parse(Console.ReadLine());
-
-			Console.Write($"Imaginary({name}): ");
-			num.Imaginary = Int32.Parse(Console.ReadLine());
-		}
-
-		ReadNumber(x, "x");
-		ReadNumber(y, "y");
-		Console.Write($"\nReal(x, y): {x.Real}, {y.Real}");
-		Console.Write($"\nImaginary(x, y): {x.Imaginary}, {y.Imaginary}");
-	}
 }
