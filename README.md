@@ -23,6 +23,7 @@ banco de dados, baseados na Internet e na Web.*
 - 08 [Programação Baseada em Objetos](./Codes/08/08.md)
 - 09 [Programação Orientada a Objetos](./Codes/09/09.md): Herança
 - 10 [Programação Orientada a Objetos](./Codes/10/10.md): Polimorfismo
+- 11 [Tratamento de Exceções](./Codes/11/11.md)
 - 12 [Conceitos de Interface com o Usuário Gráfica](./Codes/12/12.md): Parte 1
 - 13 [Conceitos de Interface com o Usuário Gráfica](./Codes/13/13.md): Parte 2
 - 14 [Múltiplas Linhas de Execução (Multithreading)](./Codes/14/14.md)
