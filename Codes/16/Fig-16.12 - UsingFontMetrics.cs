@@ -35,7 +35,7 @@ partial class UsingFontMetrics : Form
 		graphicsObject.DrawString("Height: " + family.GetEmHeight(FontStyle.Regular), arial, brush, 10, 70);
 		graphicsObject.DrawString("Leading: " + family.GetLineSpacing(FontStyle.Regular), arial, brush, 10, 90);
 
-		// Exibe as métricas da font Sans Serif.
+		// Exibe as métricas da fonte Sans Serif.
 		family = sanSerif.FontFamily;
 		graphicsObject.DrawString("Current Font " + sanSerif.ToString(), sanSerif, brush, 10, 130);
 		graphicsObject.DrawString("Ascent: " + family.GetCellAscent(FontStyle.Regular), sanSerif, brush, 10, 150);
