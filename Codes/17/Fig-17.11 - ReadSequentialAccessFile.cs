@@ -13,8 +13,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 // Cole a classe BankUIForm (Fig-17.07 - BankUI) aqui.
 
-// Cole a classe BankUIForm (Fig-17.07 - BankUI) aqui.
-
 partial class ReadSequentialAccessFileForm : BankUIForm
 {
 	private Button openButton;
