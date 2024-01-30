@@ -32,6 +32,19 @@ partial class BankUIForm : Form
 		BALANCE
 	}
 
+	private Container? components = null;
+
+	public BankUIForm()
+	{ InitializeComponent(); }
+
+	protected override void Dispose(bool disposing)
+	{
+		if (disposing && (components != null))
+		{ components.Dispose(); }
+
+		base.Dispose(disposing);
+	}
+
 	private void InitializeComponent()
 	{
 		this.accountLabel = new Label();
@@ -145,22 +158,6 @@ partial class BankUIForm : Form
 		values[(int)TextBoxIndices.BALANCE] = balanceLabel.Text;
 
 		return values;
-	}
-}
-
-partial class BankUIForm
-{
-	private Container? components = null;
-
-	public BankUIForm()
-	{ InitializeComponent(); }
-
-	protected override void Dispose(bool disposing)
-	{
-		if (disposing && (components != null))
-		{ components.Dispose(); }
-
-		base.Dispose(disposing);
 	}
 }
 

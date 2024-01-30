@@ -82,7 +82,7 @@ partial class Form1 : Form
 				// Cria FileStream para conter registros.
 				fileOutput = new FileStream(fileName, FileMode.Open, FileAccess.Write);
 
-				//Cria objeto para gravar bytes no arquivos.
+				// Cria objeto para gravar bytes no arquivos.
 				binaryOutput = new BinaryWriter(fileOutput);
 
 				// Desativa o botão Open FIle e ativa o botão Enter.
