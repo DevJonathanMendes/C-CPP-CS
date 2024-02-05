@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 
-partial class BankUIForm : Form
+class BankUIForm : Form
 {
 	public Label accountLabel;
 	public TextBox accountTextBox;
@@ -158,15 +158,5 @@ partial class BankUIForm : Form
 		values[(int)TextBoxIndices.BALANCE] = balanceLabel.Text;
 
 		return values;
-	}
-}
-
-static class Program
-{
-	[STAThread]
-	static void Main()
-	{
-		ApplicationConfiguration.Initialize();
-		Application.Run(new BankUIForm());
 	}
 }
