@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. 18.1: article.xml			-->
+<!-- Artigo estruturado com XML	-->
+
+<article>
+
+	<title>Simple XML</title>
+
+	<date>December 6, 2001</date>
+
+	<autor>
+		<firsname>John</firsname>
+		<lastname>Doe</lastname>
+	</autor>
+
+	<summary>XML is pretty easy.</summary>
+
+	<content>
+		In this chapter, we present a wide variety of example that use XML
+	</content>
+
+</article>
