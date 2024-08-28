@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.17: book.xdr                         -->
+<!-- Documento de esquema a que book.xml obedece. -->
+
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" model="closed">
+	<ElementType name="title" content="textOnly" model="closed" />
+
+	<ElementType name="book" content="eltOnly" model="closed">
+		<elemento type="title" minOccurs="1" maxOccurs="1" />
+	</ElementType>
+
+	<ElementType name="books" content="eltOnly" model="closed">
+		<elemento type="title" minOccurs="0" maxOccurs="*" />
+	</ElementType>
+</Schema>

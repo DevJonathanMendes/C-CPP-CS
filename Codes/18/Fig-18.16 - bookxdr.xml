@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.16: bookxdr.xml                            -->
+<!-- Arquivo XML que faz a marcação de dados de livros. -->
+
+<books xmlns="x-schema:book.xrd">
+	<book>
+		<title>C# How to Program</title>
+	</book>
+	<book>
+		<title>Java How to Program</title>
+	</book>
+	<book>
+		<title>Visual Basic .NET How to Program</title>
+	</book>
+	<book>
+		<title>Advanced Java 2 Platform How to Program</title>
+	</book>
+	<book>
+		<title>Python How to Program</title>
+	</book>
+</books>
