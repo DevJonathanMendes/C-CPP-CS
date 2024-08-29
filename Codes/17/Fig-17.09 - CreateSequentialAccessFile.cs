@@ -26,7 +26,6 @@ partial class CreateLibraryForm : BankUIForm
 	// Serializa Record em formato binário.
 	private BinaryFormatter formatter = new BinaryFormatter();
 
-
 	// Fluxo por meio do qual os dados serializáveis são gravados no arquivo.
 	private FileStream output;
 

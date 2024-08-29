@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.19: book.xsd              -->
+<!-- Documento W3C XML Schema simples. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:deitel="http://www.deitel.com/booklist" targetNamespace="http://www.deitel.com/booklist">
+	<xsd:element name="books" type="deitel:BooksType" />
+
+	<xsd:ComplexType name="BooksType">
+		<xsd:sequence>
+			<xsd:element name="book" type="deitel:BookType" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:ComplexType>
+
+	<xsd:ComplexType name="BooksType">
+		<xsd:sequence>
+			<xsd:element name="title" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:ComplexType>
+</xsd:schema>
