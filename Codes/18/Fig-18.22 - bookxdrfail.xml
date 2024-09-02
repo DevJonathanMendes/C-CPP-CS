@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.22: bookxdrfail.xml -->
+<!-- Arquivo XML que não obedece ao esquema book.xdr. -->
+
+<books xmlns="x-schema:book.xdr">
+	<book>
+		<title> XML How to Program</title>
+	</book>
+	<book>
+		<title>Java How to Program</title>
+	</book>
+	<book>
+		<title>Visual Basic .NET How to Program</title>
+	</book>
+	<book>
+		<title>C++ How to Program</title>
+		<title>Python How to Program</title>
+	</book>
+	<book>
+		<title>C# How to Program</title>
+	</book>
+</books >

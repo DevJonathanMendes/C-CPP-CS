@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.21: bookxsdfail.xml -->
+<!-- Documento que não obedece ao W3C Schema. -->
+
+<deitel:books xmlns:deitel="http://www.deitel.com/booklist">
+	<book>
+		<title> e-Business and e-Commerce How to Program</title>
+		<title>C# How to Program</title>
+	</book>
+	<book>
+		<title>Python How to Program</title>
+	</book>
+</deitel:books >
