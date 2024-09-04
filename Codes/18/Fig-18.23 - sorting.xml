@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.23: sorting.xml -->
+<!-- Documento XML contendo informações de livros. -->
+
+<?xml:stylesheet type="text/xsl" href="sorting.sxl"?>
+
+<book isbn="999-99999-9-X">
+	<title>Deitel&apos;s XML Primer</title>
+	<author>
+		<firstName>Paul</firstName>
+		<lastName>Deitel</lastName>
+	</author>
+
+	<chapters>
+		<frontMatter>
+			<preface pages="2" />
+			<contents pages="5" />
+			<illustrations pages="4" />
+		</frontMatter>
+
+		<appendix number="A" pages="7">Entities</appendix>
+		<appendix number="B" pages="26">Parsers and Tools</appendix>
+		<chapter number="1" pages="28">XML Fundamentals</chapter>
+		<chapter number="2" pages="35">Intermediate XML</chapter>
+		<chapter number="3" pages="44">Advanced XML</chapter>
+	</chapters>
+
+	<media type="CD"/>
+</book>
