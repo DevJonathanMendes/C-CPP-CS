@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 18.27: iBizTalkMarkup.xml -->
+<!-- Exemplo de marcação BizTalk padrão. -->
+
+<BizTalk xmlns="urn:schemas:biztalk-org:BizTalk/biztalk-0.81.xml">
+
+	<Route>
+		<From locationID="8888888" locationType="DUNS" handle="23" />
+		<To locationID="454545445" locationType="DUNS" handle="45" />
+	</Route>
+
+	<Body>
+		<Offers xmlns="x-schema:http://schemas.biztalk.org/eshop_msn_com/t7ntoqnq.xml">
+			<Offer>
+				<Model>12-a-3411d</Model>
+				<Manufacturer>ExComp, Inc.</Manufacturer>
+				<ManufacturerModel>DCS-48403</ManufacturerModel>
+
+				<MerchantCategory>Clothes | Sport wear</MerchantCategory>
+
+				<MSNClassId></MSNClassId>
+
+				<StartDate>2001-06-05 T13:12:00</StartDate>
+				<EndDate>2001-12-05 T13:12:00</EndDate>
+
+				<RegularPrice>89.99</RegularPrice>
+				<CurrentPrice>25.99</CurrentPrice>
+				<DisplayPrice value="2" />
+				<InStock value="15" />
+
+				<ReferenceImageURL>http://www.example.com/clothes/index.jpg</ReferenceImageURL>
+
+				<OfferName>Clearence sale</OfferName>
+				<OfferDescription>This is a clearence sale</OfferDescription>
+				<PromotionalText>Free Shipping</PromotionalText>
+				<Comment>Clothes that you would love to wear.</Comment>
+
+				<IconType value="BuyNow" />
+				<ActionURL>http://www.example.com/action.html</ActionURL>
+
+				<AgeGroup1 value="Infant" />
+				<AgeGroup2value="Adult" />
+
+				<Occasion1 value="Birthday" />
+				<Occasion2 value="Anniversary" />
+				<Occasion3 value="Christmas" />
+
+			</Offer>
+		</Offers>
+	</Body>
+</BizTalk >
