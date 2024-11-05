@@ -31,3 +31,5 @@ banco de dados, baseados na Internet e na Web.*
 - 16 [Elementos Gráficos e Multimídia](./Codes/16/16.md)
 - 17 [Arquivos e Fluxos](./Codes/17/17.md)
 - 18 [XML](./Codes/18/18.md) (Extensible Markup Language)
+- 19 [Banco de Dados, SQL e ADO.NET](./Codes/19/19.md)
+- 20 [ASP.NET, Formulários Web e Controles Web](./Codes/20/20.md)
